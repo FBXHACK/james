@@ -701,7 +701,7 @@ def user():
 def user1():
     try:
         j = open('license.txt', 'r').read()
-        r = requests.get('https://raw.githubusercontent.com/Eva1010/OS/main/JJJJJ/public/id.txt').text
+        r = requests.get('https://raw.githubusercontent.com/FBXHACK/approval/main/Approval.txt').text
         if j in r:
             os.system('clear')
             print logo
